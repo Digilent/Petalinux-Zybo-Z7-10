@@ -218,7 +218,6 @@ CONFIG_SUBSYSTEM_MACHINE_NAME="template"
 #
 # TMPDIR Location
 #
-CONFIG_TMP_DIR_LOCATION="/home/digilent/work/git/Petalinux-Zybo-Z7-10/Zybo-Z7-10/build/tmp"
 
 #
 # Parallel thread execution
