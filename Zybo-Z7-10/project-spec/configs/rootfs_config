@@ -195,7 +195,7 @@
 #
 # modutils-initscripts 
 #
-# CONFIG_modutils-initscripts is not set
+CONFIG_modutils-initscripts=y
 # CONFIG_modutils-initscripts-dev is not set
 # CONFIG_modutils-initscripts-dbg is not set
 
@@ -435,7 +435,7 @@ CONFIG_canutils=y
 #
 # lrzsz 
 #
-# CONFIG_lrzsz is not set
+CONFIG_lrzsz=y
 # CONFIG_lrzsz-dbg is not set
 # CONFIG_lrzsz-dev is not set
 
@@ -587,7 +587,7 @@ CONFIG_openssh-sftp-server=y
 #
 # bash-completion 
 #
-# CONFIG_bash-completion is not set
+CONFIG_bash-completion=y
 # CONFIG_bash-completion-dev is not set
 # CONFIG_bash-completion-extra is not set
 # CONFIG_bash-completion-dbg is not set
@@ -634,7 +634,7 @@ CONFIG_openssh-sftp-server=y
 #
 # grep 
 #
-# CONFIG_grep is not set
+CONFIG_grep=y
 # CONFIG_grep-dbg is not set
 # CONFIG_grep-dev is not set
 
@@ -2363,7 +2363,7 @@ CONFIG_run-postinsts=y
 #
 # gcc-runtime 
 #
-# CONFIG_libstdcPLUSPLUS is not set
+CONFIG_libstdcPLUSPLUS=y
 # CONFIG_libstdcPLUSPLUS-dev is not set
 
 #
@@ -2398,7 +2398,7 @@ CONFIG_run-postinsts=y
 #
 # glib-2.0 
 #
-# CONFIG_glib-2.0 is not set
+CONFIG_glib-2.0=y
 # CONFIG_glib-2.0-codegen is not set
 # CONFIG_glib-2.0-utils is not set
 # CONFIG_glib-2.0-dbg is not set
@@ -2408,7 +2408,7 @@ CONFIG_run-postinsts=y
 #
 # glibc 
 #
-# CONFIG_ldd is not set
+CONFIG_ldd=y
 
 #
 # gnome-desktop-testing 
@@ -2659,7 +2659,7 @@ CONFIG_packagegroup-core-boot=y
 #
 # packagegroup-core-buildessential 
 #
-# CONFIG_packagegroup-core-buildessential is not set
+CONFIG_packagegroup-core-buildessential=y
 # CONFIG_packagegroup-core-buildessential-dev is not set
 # CONFIG_packagegroup-core-buildessential-dbg is not set
 
@@ -4212,11 +4212,18 @@ CONFIG_bridge-utils=y
 # apps 
 #
 # CONFIG_gpio-demo is not set
+CONFIG_gpioutil=y
+CONFIG_kmsdemo=y
 # CONFIG_peekpoke is not set
+CONFIG_pwmdemo=y
 
 #
 # user packages 
 #
+CONFIG_libgpio=y
+CONFIG_libpwm=y
+CONFIG_libuio=y
+CONFIG_libvrc=y
 
 #
 # PetaLinux RootFS Settings
