@@ -104,7 +104,7 @@ Finally, download the petalinux installer from Xilinx and run the following (do 
 
 ```
 cd ~/Downloads
-./petalinux-v2017.4-final-installer.run /opt/pkg/petalinux
+./petalinux-v2017.4-final-installer.run -d /opt/pkg/petalinux
 ```
 
 Follow the onscreen instructions to complete the installation.
